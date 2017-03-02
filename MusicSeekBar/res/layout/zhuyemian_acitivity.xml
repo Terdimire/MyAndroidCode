@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/group" />
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <!-- android:drawableTop="" 图片显示在文字的上方 -->
+
+        <Button
+            android:id="@+id/radio_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:text="音乐"
+            android:onClick="onClick"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/radio_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:text="推荐"
+            android:onClick="onClick"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/radio_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="我的"
+            android:button="@null"
+            android:onClick="onClick"
+            android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>
