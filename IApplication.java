@@ -1,4 +1,3 @@
-package com.bwei.ydhl;
 
 import android.app.Application;
 
@@ -14,7 +13,7 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 import java.io.File;
 
 /**
- * Created by muhanxi on 17/4/12.
+ * Created by Tryndamere on 17/4/12.
  */
 
 public class IApplication extends Application {
