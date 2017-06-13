@@ -1,15 +1,16 @@
-1 ½â¾öÃ»ÓĞHttpClientµÄÒÀÀµ(ÔÚAndroid ÏÂ)     useLibrary 'org.apache.http.legacy'
+1 è§£å†³æ²¡æœ‰HttpClientçš„ä¾èµ–(åœ¨Android ä¸‹)     useLibrary 'org.apache.http.legacy'
 											 
-2 JSON½âÎö---fastjsonÒÀÀµ:    				 compile 'com.alibaba:fastjson:1.1.56.android'
+2 JSONè§£æ---fastjsonä¾èµ–:    				 compile 'com.alibaba:fastjson:1.1.56.android'
 
-3 ÍøÂç¿ò¼Ü XutilsÒÀÀµ:     				     compile 'org.xutils:xutils:3.5.0'
+3 ç½‘ç»œæ¡†æ¶ Xutilsä¾èµ–:     				     compile 'org.xutils:xutils:3.5.0'
 
-4 ÍøÂç¿ò¼Ü AriaÒÀÀµ:     					 compile 'com.arialyy.aria:Aria:3.0.2'
+4 ç½‘ç»œæ¡†æ¶ Ariaä¾èµ–:     					 compile 'com.arialyy.aria:Aria:3.0.2'
 
-5 ÍøÂç¿ò¼Ü AsynaÒÀÀµ:                        compile 'com.loopj.android:android-async-http:1.4.9'
+5 ç½‘ç»œæ¡†æ¶ Asynaä¾èµ–:                        compile 'com.loopj.android:android-async-http:1.4.9'
 
-6 TabLayoutÒÀÀµ (ViewPagerÒ»Æğ»¬¶¯µ¼º½À¸)	 compile 'com.android.support:design:25.2.0'
+6 TabLayoutä¾èµ– (ViewPagerä¸€èµ·æ»‘åŠ¨å¯¼èˆªæ )	 compile 'com.android.support:design:25.2.0'
 
-7 ImageLoader ÒÀÀµ 							 compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+7 ImageLoader ä¾èµ– 							 compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+8. OKHTTP			    compile 'com.squareup.okhttp3:okhttp:3.8.0'
 
 	
